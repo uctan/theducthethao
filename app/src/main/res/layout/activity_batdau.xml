@@ -1,0 +1,148 @@
+
+<ScrollView android:id="@+id/giothieu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    >
+
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content" >
+
+
+
+        <RelativeLayout android:id="@+id/page_giothieu_ek1"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+            <View
+                android:id="@+id/_bg__giothieu_ek2"
+                android:layout_width="393dp"
+                android:layout_height="786dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__giothieu_ek2_shape" />
+
+            <RelativeLayout android:id="@+id/frame_43833"
+                android:layout_marginTop="23dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <RelativeLayout android:id="@+id/frame_1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/frame_2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_width="30dp"
+                        android:layout_height="27dp"
+                        android:src="@drawable/logo"
+                        >
+
+
+
+
+
+
+                    </ImageView>
+
+                    <TextView android:id="@+id/sportify"
+                        android:fontFamily="Azeret Mono"
+                        android:textStyle="bold"
+                        android:textSize="23sp"
+                        android:textColor="@color/sportify_color"
+                        android:layout_marginLeft="37dp"
+                        android:layout_marginTop="-0.29dp"
+                        android:layout_width="132.52631568909dp"
+                        android:layout_height="39.526315689087dp"
+                        android:text="@string/sportify_string"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView android:id="@+id/vector"
+            android:src="@drawable/vectorbatdau"
+            android:contentDescription="vector"
+            android:layout_marginStart="181dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="430dp"
+            android:layout_height="445dp" />
+
+        <ImageView android:id="@+id/pngimg_1"
+            android:src="@drawable/hinhbatdau"
+            android:contentDescription="pngimg_1"
+            android:layout_marginStart="-19dp"
+            android:layout_marginTop="163dp"
+            android:layout_width="430dp"
+            android:layout_height="334.11dp" />
+
+        <TextView android:id="@+id/__n_v_i_ch_ng_t_i____c__m_t_c__th__kh_e_m_nh_m_i_ng_y"
+            android:fontFamily="Poppins"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:alpha="0.7"
+            android:textColor="@color/__n_v_i_ch_ng_t_i____c__m_t_c__th__kh_e_m_nh_m_i_ng_y_color"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="584dp"
+            android:layout_width="270.5dp"
+            android:layout_height="49.5dp"
+            android:text="@string/__n_v_i_ch_ng_t_i____c__m_t_c__th__kh_e_m_nh_m_i_ng_y_string"
+            />
+
+        <ImageButton
+            android:id="@+id/btnbatdau"
+            android:background="@drawable/rectangle_39944_shape"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="711dp"
+            android:layout_width="352dp"
+            android:layout_height="53dp"
+            />
+
+        <TextView android:id="@+id/batdau"
+            android:fontFamily="Poppins"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/_bg__giothieu_ek2_color"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="701dp"
+            android:layout_width="334dp"
+            android:layout_height="70dp"
+            android:text="@string/b_t___u_string"
+            />
+
+        <TextView android:id="@+id/t_p_luy_n_th__d_c_m_i_ng_y"
+            android:fontFamily="Poppins"
+            android:textStyle="bold"
+            android:textSize="27dp"
+            android:textColor="@color/__n_v_i_ch_ng_t_i____c__m_t_c__th__kh_e_m_nh_m_i_ng_y_color"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="501dp"
+            android:layout_width="255dp"
+            android:layout_height="89dp"
+            android:text="@string/t_p_luy_n_th__d_c_m_i_ng_y_string"
+            />
+
+    </RelativeLayout>
+</ScrollView>
+
+

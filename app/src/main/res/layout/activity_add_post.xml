@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Post.AddPostActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/frame_1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        >
+
+        <ImageButton
+            android:id="@+id/vectortrangpost"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:src="@drawable/vectortrangbanhang" />
+
+        <ImageView
+            android:id="@+id/logonhe"
+            android:layout_width="30dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logoxanh_1"></ImageView>
+
+        <TextView
+            android:id="@+id/sportify"
+            android:layout_width="132.52631568909dp"
+            android:layout_height="39.526315689087dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="-0.29dp"
+            android:fontFamily="Azeret Mono"
+            android:text="@string/sportify_string"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/addpost"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/them"
+            android:layout_marginLeft="350dp"
+            android:background="@null"
+            />
+    </RelativeLayout>
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="375dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/searchpost"
+        app:searchHintIcon="@null"
+        app:queryHint="Search..."
+        android:background="@drawable/search"
+        android:layout_alignParentBottom="true"
+
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/postsRecyclerview"
+        />
+
+
+</LinearLayout>

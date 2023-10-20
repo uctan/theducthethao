@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1034130787715",
+    "firebase_url": "https://doandkydnhap-default-rtdb.firebaseio.com",
+    "project_id": "doandkydnhap",
+    "storage_bucket": "doandkydnhap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034130787715:android:756f1821715d25ca7bbab6",
+        "android_client_info": {
+          "package_name": "com.example.duytanlamdoan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034130787715-fulv0s60a9g8flo57pqvhdsgr7tbs0b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrFDmUTxfiZ4CXGzgSEHTuUS2zygztE2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034130787715-fulv0s60a9g8flo57pqvhdsgr7tbs0b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034130787715:android:78e1d4d78df8635a7bbab6",
+        "android_client_info": {
+          "package_name": "com.example.theducthethao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034130787715-fulv0s60a9g8flo57pqvhdsgr7tbs0b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrFDmUTxfiZ4CXGzgSEHTuUS2zygztE2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034130787715-fulv0s60a9g8flo57pqvhdsgr7tbs0b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
